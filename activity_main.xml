@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 1st date"
+        android:clickable="true"
+        android:background="#e8ffffff"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        tools:shadowColor="@android:color/darker_gray"
+        android:id="@+id/date1"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:background="#e8ffffff"
+        android:hint="Enter 2st date"
+        android:clickable="true"
+        android:editable="false"
+        android:singleLine="true"
+        tools:shadowColor="@android:color/darker_gray"
+        android:id="@+id/date2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculate"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/b1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:id="@+id/tv1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="sudha mula"
+        android:onClick="sudha"/>
+
+</LinearLayout>
